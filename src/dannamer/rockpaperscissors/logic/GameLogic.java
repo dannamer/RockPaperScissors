@@ -21,11 +21,11 @@ public class GameLogic {
         int result = (numberOfHands + OneHand - TwoHand) % numberOfHands;
 
         if (result <= numberOfHands / 2) {
-            System.out.println(playerTwo.getName() + " побеждает Раунд!");
-            playerTwo.win();
-        } else {
             System.out.println(playerOne.getName() + " побеждает Раунд!");
             playerOne.win();
+        } else {
+            System.out.println(playerTwo.getName() + " побеждает Раунд!");
+            playerTwo.win();
         }
     }
 }
