@@ -8,10 +8,18 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+<<<<<<< HEAD
 *.iws
 *.iml
 *.ipr
 
+=======
+.idea
+*.iws
+*.iml
+*.ipr
+target
+>>>>>>> 4a599dd (1)
 ### Eclipse ###
 .apt_generated
 .classpath
